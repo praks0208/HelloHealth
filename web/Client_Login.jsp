@@ -1,8 +1,3 @@
-<%-- 
-    Document   : Client_Login.jsp
-    Created on : 17 Mar, 2023, 8:39:59 PM
-    Author     : Pranav
---%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="com.hellohealth.*"%>
 <!DOCTYPE html>
