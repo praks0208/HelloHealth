@@ -1,9 +1,3 @@
-<%-- 
-    Document   : ClientLogin_Action
-    Created on : 18 Mar, 2023, 1:42:18 PM
-    Author     : Pranav
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8" import="com.hellohealth.*,java.io.*,java.lang.*,java.sql.*" %>
 
 <!DOCTYPE html>
