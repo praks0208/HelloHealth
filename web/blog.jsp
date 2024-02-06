@@ -1,8 +1,3 @@
-<%-- 
-    Document   : blog
-    Created on : 17 Mar, 2023, 8:45:25 PM
-    Author     : Pranav
---%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
