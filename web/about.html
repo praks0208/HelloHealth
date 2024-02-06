@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello Health :About Us</title>
+
+<!--bootstrap links-->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!---->
+<link rel="shortcut icon" href="2.png" type="favicon/ico" />
+<!--csslinks-->
+<link href="css/mycss.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/demo.css">
+<link rel="stylesheet" href="css/common.css">
+<!---->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+    body{
+        background-image: url("img/bgf.jpg");
+    }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="header">
+<div id="sidebar_btn">
+  <img src="img/menu.png" class="img-circle" width="200" height="200">
+ </div>
+</div>
+</div>
+<div id="signin">
+    <a href="Client_Login.jsp"title="Client Login"><img src="img\Login.png" class="img-circle"/></a>
+   </div>
+   <div id="Signup"> 
+       <a href="Add_Client.jsp" title="Sign Up"><img src="img/signup.png" class="img-circle"/></a>
+   </div>
+   
+<div id="sidebar">
+ <ul>
+    <li><a href="index.html" title="Home"><img src="img/home.png" class="img-cirlce"></a></li>
+    <li><a href="blog.jsp" title="Reviews"><img src="img/blog.png" class="img-circle"></a></li>
+    <li><a href="#" title="About Us"><img src="img/about.png" class="img-circle"></a></li>
+    <li><a href="contact.html" title="Contact"><img src="img/contact.png" class="img-circle"></a></li>
+  </ul>
+</div>
+<div class="about">
+ <div id="aboutcontent">
+<hr><hr> 
+<div id="aboutcontent" class="heading">
+ABOUT US</div>
+ <hr>
+ <hr>
+ <div id="aboutcontent" class="full">
+ This organization is started with the view of achieving the goal of HEALTHY WORLD. This project was inititated by Mrs.Monali Rajput.
+ Considering the present day condition and understanding that not everybody has access to internet we have added the feature of "Add Family Members" wherein 
+ the client can use his account for the rest of his family members too.
+ <br>
+ We at Hello Health firmly believe in the saying
+ </div>
+ <div id="Giant-text">
+ "VASUDEV KUTUMBAKAM" - 
+ </div>
+ <div id="aboutcontent" class="full"> meaning the whole world is one Family and thus we try to make efforts towards looking after the health of our family.</div>
+ </div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+ $('#sidebar_btn').click(function()
+{$('#sidebar').toggleClass('visible');
+});
+});
+$(document).ready(function(){
+ $('#signin').click(function()
+{
+    $('#adminsignin').toggleClass('visible');
+    $('#clientsignin').toggleClass('visible');
+});
+});
+</script>
+
+<div class="footer" id="abouts">
+	<div class="copy">
+	  <div class="container">
+        <div class="component">
+        <a href="#" class="icon icon-cube facebook">facebook</a>
+        <a href="#" class="icon icon-cube twitter">twitter</a>
+        <a href="#" class="icon icon-cube googleplus">google+</a>
+        </div>
+      </div>
+	  <br><p>Copyright &copy; Hello Health</p>
+    </div>
+</div>
+
+
+
+ <!--footer-->		
+<script type="text/javascript">
+		$("h1").fitText(1.1, { minFontSize: '25px', maxFontSize: '75px' });
+	</script>
+
+</body>
+</html>

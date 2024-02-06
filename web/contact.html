@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello Health: Contact Us</title>
+
+<!--bootstrap links-->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!---->
+<link rel="shortcut icon" href="img/logo.jpg" type="favicon/ico" />
+<!--csslinks-->
+<link href="css/mycss.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/demo.css">
+<link rel="stylesheet" href="css/common.css">
+<!---->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<div class="container-fluid">
+<div class="header">
+<div id="sidebar_btn">
+  <img src="img/menu.png" class="img-circle" width="200" height="200">
+ </div>
+</div>
+</div>
+<div id="signin">
+    <a href="Client_Login.jsp"title="Client Login"><img src="img\Login.png" class="img-circle"/></a>
+   </div>
+   <div id="Signup"> 
+       <a href="Add_Client.jsp" title="Sign Up"><img src="img/signup.png" class="img-circle"/></a>
+   </div>
+   
+<div id="sidebar">
+ <ul>
+    <li><a href="index.html" title="Home"><img src="img/home.png" class="img-cirlce"></a></li>
+    <li><a href="blog.jsp" title="Blog"><img src="img/blog.png" class="img-circle"></a></li>
+    <li><a href="about.html" title="About Us"><img src="img/about.png" class="img-circle"></a></li>
+    <li><a href="#" title="Contact"><img src="img/contact.png" class="img-circle"></a></li>
+  </ul>
+</div>
+<script>
+$(document).ready(function(){
+ $('#sidebar_btn').click(function()
+{$('#sidebar').toggleClass('visible');
+});
+});
+$(document).ready(function(){
+ $('#signin').click(function()
+{
+    $('#adminsignin').toggleClass('visible');
+    $('#clientsignin').toggleClass('visible');
+});
+});
+</script>
+<div class="contentsh">
+    <div class="clientcontent" style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif; color: #ffffff">
+      <center>  <h3 style="color: #ffffff"> Contact Us : </h3></center>
+      <div class="contactusleft">
+          <hr> <u>Contact Us:</u><br>
+          Mail Us at:<br>
+          hellohealth123@gmail.com<br>
+          <center>OR</center>
+          <u>Call us at:</u> <br>
+          9594505736
+          
+    </div>
+      <div class="contactusright">
+          <hr>&nbsp;&nbsp; <u>Enquiry Form:</u><br>
+          <form role="form" action="AddInquiry.jsp" method="post">
+          <label id="usr">Your E-mail:</label><br>
+          <div class="col-lg-10">
+              <input type="text" class="form-control input-group-lg" name="mail" required>
+          </div>
+          <label id="usr">Query:</label><br>
+          <textarea name="message" class="form-control input-group-lg" rows="5" size="250" required></textarea>
+          <input type="submit" name="submit" value="Submit Enquiry">
+          </form>
+      </div>
+</div>
+</div>
+<div class="footer">
+	<div class="copy">
+	  <div class="container">
+        <div class="component">
+        <a href="#" class="icon icon-cube facebook">facebook</a>
+        <a href="#" class="icon icon-cube twitter">twitter</a>
+        <a href="#" class="icon icon-cube googleplus">google+</a>
+        </div>
+      </div>
+	  <br><p>Copyright &copy; Hello Health</p>
+    </div>
+</div>
+ <!--footer-->		
+<script type="text/javascript">
+		$("h1").fitText(1.1, { minFontSize: '25px', maxFontSize: '75px' });
+	</script>
+
+</body>
+</html>
