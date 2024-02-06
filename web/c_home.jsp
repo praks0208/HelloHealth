@@ -1,9 +1,3 @@
-<%-- 
-    Document   : c_home
-    Created on : 18 Mar, 2023, 1:44:20 PM
-    Author     : Pranav
---%>
-
 <%@page import="com.hellohealth.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
