@@ -1,9 +1,3 @@
-<%-- 
-    Document   : Add_Feedback
-    Created on : 18 Mar, 2023, 2:06:37 PM
-    Author     : Pranav
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
