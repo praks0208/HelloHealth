@@ -1,8 +1,3 @@
-<%-- 
-    Document   : Add_Client.jsp
-    Created on : 17 Mar, 2023, 8:40:42 PM
-    Author     : Pranav
---%>
 <%@page import="java.util.ArrayList"%>
 
 <%@page import="com.hellohealth.*"%>
