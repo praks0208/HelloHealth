@@ -1,9 +1,3 @@
-<%-- 
-    Document   : AddReport
-    Created on : 19 Mar, 2023, 1:20:11 PM
-    Author     : Prasanna
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8" import="com.hellohealth.*,java.io.*,java.lang.*,java.sql.*,java.util.* "%>
 <!DOCTYPE html>
 <html>
