@@ -1,9 +1,3 @@
-<%-- 
-    Document   : Client_Logout
-    Created on : 18 Mar, 2023, 2:07:45 PM
-    Author     : Pranav
---%>
-
 <%@page import="com.hellohealth.Client_Dt"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
