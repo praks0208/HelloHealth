@@ -1,9 +1,3 @@
-<%-- 
-    Document   : AddInquiry
-    Created on : 19 Mar, 2023, 4:43:08 PM
-    Author     : Prasanna
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
