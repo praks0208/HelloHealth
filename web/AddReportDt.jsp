@@ -1,9 +1,3 @@
-<%-- 
-    Document   : AddReportDt
-    Created on : 19 Mar, 2023, 1:14:56 PM
-    Author     : Pranav
---%>
-
 <%@page import="com.hellohealth.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
